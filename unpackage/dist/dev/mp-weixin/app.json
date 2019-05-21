@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/comment/comment",
+    "pages/me/me"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "white",
+    "color": "#7a7e83",
+    "selectedColor": "#FE594B",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "吃啥",
+        "iconPath": "static/tab/food.png",
+        "selectedIconPath": "static/tab/cfood.png"
+      },
+      {
+        "pagePath": "pages/comment/comment",
+        "text": "点评",
+        "iconPath": "static/tab/comment.png",
+        "selectedIconPath": "static/tab/ccomment.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "static/tab/me.png",
+        "selectedIconPath": "static/tab/cme.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+<view class="main" bind:__l="__l"><block wx:for="{{foodlist}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block></block></block></view>

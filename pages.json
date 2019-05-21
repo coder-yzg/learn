@@ -1,0 +1,51 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/main/main",
+            "style" : {
+				"navigationBarTitleText":"帮我选"
+			}
+        }
+        ,{
+            "path" : "pages/comment/comment",
+            "style" : {
+				"navigationBarTitleText":"吃点评"
+			}
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" : {
+				"navigationBarTitleText":"我"
+			}
+        }
+    ],
+	"tabBar":{
+		"backgroundColor":"white",
+		"color":"#7a7e83",
+		"selectedColor":"#FE594B",
+		"list":[
+			{
+			    "pagePath" : "pages/main/main",
+			    "text":"帮我选",
+				"iconPath":"static/tab/food.png",
+				"selectedIconPath":"static/tab/cfood.png"
+			},{
+			    "pagePath" : "pages/comment/comment",
+				"text":"点评",
+				"iconPath":"static/tab/comment.png",
+				"selectedIconPath":"static/tab/ccomment.png"
+			},{
+			    "pagePath" : "pages/me/me",
+				"text":"我",
+				"iconPath":"static/tab/me.png",
+				"selectedIconPath":"static/tab/cme.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
